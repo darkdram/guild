@@ -1,0 +1,33 @@
+.raid_frame_images_list,
+.loot_screen_list {
+  display: flex;
+}
+
+.raid_frame_link,
+.loot_screen_link {
+  margin: 0 5px;
+}
+
+.raid_frame_preview,
+.loot_screen_preview {
+  max-width: 100px;
+}
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-image: url("./img/close.svg");
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+}
+
+.item-link-wraper {
+  position: relative;
+  padding: 5px;
+}
+
+.form-group + .form-group {
+  margin-top: 10px;
+}
