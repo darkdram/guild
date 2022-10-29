@@ -31,3 +31,24 @@
 .form-group + .form-group {
   margin-top: 10px;
 }
+
+.member-support {
+  background-color: green;
+}
+.member-heal {
+  background-color: blueviolet;
+}
+.member-damage_dealer {
+  background-color: dodgerblue;
+}
+.member-singer {
+  background-color: brown;
+}
+
+.add_button_wrapper {
+  margin-top: 10px;
+}
+
+.raid_members_marked_list {
+  padding: 10px 0;
+}
